@@ -5,11 +5,7 @@
 
 @font-face {
   font-family: cc-accidenz;
-  src: url({{'CCAccidenzCommons-medium.otf' | relative_url }});
-}
-
-div {
-  font-family: cc-accidenz;
+  src: url({{'/assets/fonts/CCAccidenzCommons-medium.otf' | relative_url }});
 }
 
 body {
@@ -17,14 +13,14 @@ body {
 }
 
 header {
-    font-family: media sans semicondensed;
+    font-family: cc-accidenz;
     background: initial;
     padding-top: 0;
 }
 
 header .inner {
-    padding: 0px 10px 10px 10px;
-    border-color: red;
+    padding: 40px 10px 10px 10px;
+    border-color: #ccc;
     border-width: 0px 1px 1px 1px;
     border-style: solid;
 }
