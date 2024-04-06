@@ -16,6 +16,7 @@ header {
     font-family: cc-accidenz;
     background: initial;
     padding-top: 0;
+    border-bottom-width: 0px;
 }
 
 header .inner {
@@ -31,4 +32,8 @@ header h1 {
 
 header h2 {
     color: #e40046;
+}
+
+#main-content {
+    font-family: monospace;
 }
