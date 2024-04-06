@@ -3,10 +3,25 @@
 
 @import "{{ site.theme }}";
 
+body {
+    background: #e6e6e6;
+    color: #141414;
+    // font-family: akzidenz-grotesk-next;
+}
+
 header {
     font-family: media sans semicondensed;
+    background: initial;
+    padding: 0px 10px 10px 10px;
+    border-color: red;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+}
+
+header h1 {
+    color: black;
 }
 
 header h2 {
-    color: black;
+    color: #e40046;
 }
