@@ -3,6 +3,15 @@
 
 @import "{{ site.theme }}";
 
+@font-face {
+  font-family: cc-accidenz;
+  src: url({{'CCAccidenzCommons-medium.otf' | relative_url }});
+}
+
+div {
+  font-family: cc-accidenz;
+}
+
 body {
     color: #141414;
 }
