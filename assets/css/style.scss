@@ -4,14 +4,16 @@
 @import "{{ site.theme }}";
 
 body {
-    background: #e6e6e6;
     color: #141414;
-    // font-family: akzidenz-grotesk-next;
 }
 
 header {
     font-family: media sans semicondensed;
     background: initial;
+    padding-top: 0;
+}
+
+header .inner {
     padding: 0px 10px 10px 10px;
     border-color: red;
     border-width: 0px 1px 1px 1px;
